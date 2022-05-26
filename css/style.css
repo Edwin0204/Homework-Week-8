@@ -1,0 +1,66 @@
+* {
+    --stripe: #769DB7;
+    --bg: #1D3D60;
+}
+
+.subtitle {
+     background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    font-size: x-large;
+    color: #445876;  
+    width: 15%;
+    border-right: solid var(--bg);
+    justify-content: center;
+    padding-right: 2%;
+    flex-direction: column;
+
+}
+
+
+.myPhoto{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 20px;
+}
+
+.right   {
+    font-size: small;
+    padding: 3%;
+    margin-bottom: 2%;
+    width: 68%;    
+}
+
+.mainimage {
+   max-height: 300px;
+}
+
+.image {
+    min-height: 150px;
+    max-height: 300px;
+ }
+
+.card {
+    margin-bottom: 5%;
+    height: fit-content;
+}
